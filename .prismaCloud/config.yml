@@ -1,2 +1,0 @@
- # Specify the template types.The valid values are TF, CFT, K8S
- template_type: K8S
