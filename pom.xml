@@ -39,13 +39,12 @@
       <artifactId>spring-boot-starter-actuator</artifactId>
     </dependency>
     
-    <!-- Vulnerable Dependency for shiftleft demo 
+    <!-- Vulnerable Dependency for shiftleft demo -->
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-databind</artifactId>
       <version>2.10.2</version>
     </dependency>
-    -->
     
 
 
