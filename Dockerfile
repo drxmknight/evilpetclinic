@@ -29,5 +29,4 @@ ARG DEPENDENCY=dependency
 #COPY ${DEPENDENCY}/BOOT-INF/classes /app
 COPY dependency /app
 
-#ENTRYPOINT ["java","-cp","app:app/lib/*","org.springframework.samples.petclinic.PetClinicApplication"]
-
+ENTRYPOINT ["java","-cp","app:app/lib/*","org.springframework.samples.petclinic.PetClinicApplication"]
